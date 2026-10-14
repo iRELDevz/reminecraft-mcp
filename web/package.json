@@ -1,0 +1,14 @@
+{
+  "name": "reminecraft-web",
+  "private": true,
+  "version": "0.3.0",
+  "type": "module",
+  "scripts": {
+    "test": "node test-stdio.mjs && node test-flow.mjs",
+    "test-plugin": "node test-plugin.mjs",
+    "test-vanilla": "node test-vanilla.mjs",
+    "test-bedrock": "node test-bedrock.mjs",
+    "inspect": "npx @modelcontextprotocol/inspector ../reminecraft-mcp/target/debug/reminecraft-mcp.exe --transport stdio",
+    "inspect-http": "npx @modelcontextprotocol/inspector --url http://127.0.0.1:8000/mcp"
+  }
+}

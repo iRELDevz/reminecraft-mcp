@@ -1,0 +1,5 @@
+name: RemineShim
+version: 0.1.0
+main: com.remine.shim.RemineShim
+api-version: "1.21"
+description: HTTP API lokal untuk Reminecraft MCP

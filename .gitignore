@@ -1,0 +1,11 @@
+target/
+bin/
+obj/
+node_modules/
+server/
+*.log
+native/bedrock_ping.exe
+screenshot-*.png
+plugin/classes/
+plugin-shim/classes/
+plugin/lib/

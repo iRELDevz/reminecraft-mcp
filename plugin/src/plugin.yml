@@ -1,0 +1,9 @@
+name: RemineTest
+version: 0.1.0
+main: com.remine.test.RemineTest
+api-version: "1.21"
+description: Plugin uji Reminecraft MCP
+commands:
+  remine:
+    description: Sapa server
+    usage: /remine [nama]

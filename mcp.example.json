@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "reminecraft": {
+      "command": "D:\\Reminecraft-MCP\\reminecraft-mcp\\target\\debug\\reminecraft-mcp.exe",
+      "args": ["--transport", "stdio"]
+    }
+  }
+}

@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.16)
+project(remine_native CXX)
+set(CMAKE_CXX_STANDARD 17)
+add_executable(bedrock_ping bedrock_ping.cpp)
+target_compile_definitions(bedrock_ping PRIVATE REMINE_BEDROCK_PING_CLI)
+if(WIN32)
+  target_link_libraries(bedrock_ping ws2_32)
+endif()
